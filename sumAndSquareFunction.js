@@ -49,4 +49,5 @@ const sumNumAndSquareResult = nums => nums.reduce((total, num) => total + num, 0
 let result2 =  sumNumAndSquareResult(numbers);
 console.log(result2);
 
+module.exports = sumNumbersAndSquareResult;
 
