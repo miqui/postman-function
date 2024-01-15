@@ -30,6 +30,7 @@ function sumNumbersAndSquareResult (nums) {
 
 const numbers = [1,2,3,4,5,6]; // Array of numbers
 
+// Choice 1 (unit test uses this function currently)
 function sumNumbersAndSquareResult(nums) {
     let total = 0;
 
@@ -43,6 +44,7 @@ function sumNumbersAndSquareResult(nums) {
 let result = sumNumbersAndSquareResult(numbers);
 console.log(result);
 
+// Choice 2, cleaner code.
 // Better using ES6
 const sumNumAndSquareResult = nums => nums.reduce((total, num) => total + num, 0) ** 2;
 
